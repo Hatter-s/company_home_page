@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Home Page</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light text-dark ">
+    <a class="navbar-brand" href="index.html"><span class="bi bi-bicycle p-5"></span></a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#mission">Mission</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#items">Items</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#team">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <header class="bg-dark text-light">
+    <div class="title text-center bg-light text-dark" id="mission">
+      <h1>The BMT Bicycle Store</h1>
+      <p>All the essence gathered here</p>
+    </div>
+  </header>
+  <main>
+    <section id="about">
+      <div class="contain-text bg-dark text-light">
+        <h2>About</h2>
+        <p>Our mission is to bring you the best mountain bikes for you and with our maintenance team we guarantee the best warranties and upgrades.</p>
+      </div>
+      <div id="about-img"></div>
+    </section>
+    <section id="items">
+      <h2>Here are some of the best-selling bikes in our store</h2>
+      <div class="item item-1 ">
+          <img src="resource/img/bike/bike1.jpg" id="bike-1" class="bike-img">
+          <hr>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin quam ligula, vel vulputate sem vehicula nec.</p>
+          <button class="btn btn-outline-info ">
+            <p> 70-80 <span class="bi bi-currency-dollar"></span></p>
+          </button>     
+      </div>
+      <div class="item item-2">
+        <img src="resource/img/bike/bike2.jpg" id="bike-2" class="bike-img">
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin quam ligula, vel vulputate sem vehicula nec.</p>
+        <button class="btn btn-outline-info ">
+          <p> 80-90 <span class="bi bi-currency-dollar"></span></p>
+        </button>    
+      </div>
+      <div class="item item-3">
+        <img src="resource/img/bike/bike3.jpg" id="bike-1" class="bike-img">
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin quam ligula, vel vulputate sem vehicula nec.</p>
+        <button class="btn btn-outline-info ">
+          <p> 80-90 <span class="bi bi-currency-dollar"></span></p>
+        </button>     
+      </div>
+    </section>
+    <section id="team">
+      <div class="bg-secondary team">
+        <h2>Our Team</h2>
+        <div class="menber" id="leader">
+          <img src="./resource/img/person/leader.jpg">
+          <h3 class="name">Kavin Lasker</h3>
+          <p class="description">C.E.O. - Founder</p>
+        </div>
+        <div class="menber" id="seller">
+          <img src="./resource/img/person/seller.jpg">
+          <h3 class="name">Rosemary Fischer</h3>
+          <p class="description">Leader team seller and marketing</p>
+        </div>
+        <div class="menber" id="repair_and_update">
+          <img src="./resource/img/person/repair_and_update.jpg">
+          <h3 class="name">Omar Trump</h3>
+          <p class="description">Leader team repair and update</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div id="social-media" class="bg-dark text-light">
+        <h3>Contact we:</h3>
+        <ul>
+          <li><a href="#"><span class="bi bi-facebook"></span></a></li>
+          <li><a href="#"><span class="bi bi-instagram"></span></a></li>
+          <li><a href="#"><span class="bi bi-twitter"></span></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</html>
